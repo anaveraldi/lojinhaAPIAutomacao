@@ -18,7 +18,7 @@ public class ProdutoTest {
         //Configurar os dados da API Rest da Lojinha
         baseURI = "http://165.227.93.41";
         //port = 8080; >> pode ser que seja necessário add a porta onde o app está rodando
-        basePath = "/lojinha";
+        basePath = "/lojinha-bugada";
 
         UsuarioPojo usuario = new UsuarioPojo();
         usuario.setUsuarioLogin("admin");
